@@ -1,0 +1,60 @@
+/* normalized css */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3% 10%;
+  background-color: #272362;
+  height: 70px;
+}
+
+header img {
+  width: 150px;
+}
+
+header nav {
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.hero {
+  height: 400px;
+  background-color: #ff216e;
+  background-image: url(./images/hero-bk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white;
+}
+
+.about {
+  background-color: #e8ebeb;
+  height: 400px;
+}
+
+footer {
+  background-color: #272362;
+  color: white;
+  height: 400px;
+}
